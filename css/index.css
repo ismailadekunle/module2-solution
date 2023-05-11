@@ -1,3 +1,4 @@
+/* stylelint-disable selector-class-pattern */
 * {
   padding: 0;
   margin: 0;
@@ -8,9 +9,10 @@ body {
   background-color: magenta;
 }
 
-/* stylelint-disable-next-line selector-class-pattern */
-.OurMenu {
-  text-align: center;
+/* stylelint-disable-next-line CssSyntaxError */
+
+.Our menu {
+  text-align: right;
 }
 
 .text1 {
@@ -24,7 +26,6 @@ body {
   border: 2px solid black;
 }
 
-/* stylelint-disable-next-line selector-class-pattern */
 .Chicken {
   color: blueviolet;
   border: 2px solid black;
@@ -49,7 +50,6 @@ body {
   border: 2px solid black;
 }
 
-/* stylelint-disable-next-line selector-class-pattern */
 .Beef {
   color: blueviolet;
   border: 2px solid black;
@@ -71,7 +71,6 @@ body {
   border: 2px solid black;
 }
 
-/* stylelint-disable-next-line selector-class-pattern */
 .Sushi {
   color: blueviolet;
   border: 2px solid black;
